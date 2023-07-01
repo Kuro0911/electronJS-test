@@ -4,7 +4,8 @@
   "description": "electron js text project",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "npx electronmon ."
   },
   "author": "kuro",
   "license": "ISC",
@@ -12,5 +13,10 @@
     "electron": "^25.2.0",
     "resize-img": "^2.0.0",
     "toastify-js": "^1.12.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
   }
 }
